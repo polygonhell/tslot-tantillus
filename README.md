@@ -1,6 +1,9 @@
 tslot-tantillus
 ===============
 
+DONOT TRY AND PRINT THIS YET IT IS STILL A WIP, NOT ALL THE FILES HAVE BEEN CONVERTED
+
+
 T-Slot frame for Tantillus 3D Printer
 
 Initial Version Assumes:
