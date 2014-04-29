@@ -12,7 +12,7 @@ Vertical beams extend the length of the case, and are therefore the same length
 In my build, I dirlled the ends of the drive rods and couple the XY Motors directly too them. This is only practical if you have access to a lathe. You can choose to use standoffs and a coupler like the 2020 design but you will need to use Rod lengths ~5mm longer than the original 2020 TSlot design, rather than the ones specified here.
 
 - OpenBeam lengths:
-     - 8x (Horizontal 200mm)
+     - 8x (Horizontal 210mm)
      - 4x (Vertical 335mm)
 
 - All screws for frame assembly are M3x10mm, you'll need washers om the bolts going into the OpenBeam, I recommend cap head screws as they fit into the recesses provided for the XY Stepper mounts. If you are using the 40 mm standoffs from the original design then it doesn't matter.
