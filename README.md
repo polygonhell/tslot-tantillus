@@ -2,6 +2,33 @@ tslot-tantillus
 ===============
 
 DONOT TRY AND PRINT THIS YET IT IS STILL A WIP, NOT ALL THE FILES HAVE BEEN CONVERTED
+Not horizontal TSlot must be 10 mm longer to retain original size account for the offset of the 15mm openbeam rather than 20mmextrusio
+i.e. original is 5+20 + 200 + 20+5 = 250mm, openbeam must be 5+15 + 210 + 15+5 = 250mm
+Vertical beams extend the length of the case, and are therefore the same length
+
+In my build, I dirlled the ends of the drive rods and couple the XY Motors directly too them. This is only practical if you have access
+to a lathe. You can choose to use standoffs and a coupler like the 2020 design but you will need to use Rod lengths ~5mm longer than 
+the original 2020 TSlot design, rather than the ones specified here.
+
+- OpenBeam lengths:
+     - 8x (Horizontal 200mm)
+     - 4x (Vertical 335mm)
+
+- All screws for frame assembly are M3x10mm, you'll need washers om the bolts going into the OpenBeam, I recommend cap head 
+screws as they fit into the recesses provided for the XY Stepper mounts. If you are using the 40 mm standoffs from the original design then 
+it doesn't matter.
+
+- 8mm Shafting
+     - 2x SFJ8-170 (8x170mm bearing shafts, same as Tantillus internal XY axis)
+     - 2x SFJ8-230 (8x230mm bearing shafts, same as Tantillus Z axis)
+
+- 5/16" Shafting
+     - 2x --- TBD EXACT LENGTH 277mm
+     - 2x --- TBD EXACT LENGTH 277mm with holes drilled 56.5mm in from each end for a distance of 164mm hole to hole
+
+
+Z AXIS NOT YET CONVERTED
+
 
 
 T-Slot frame for Tantillus 3D Printer
