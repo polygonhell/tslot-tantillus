@@ -25,6 +25,16 @@ In my build, I dirlled the ends of the drive rods and couple the XY Motors direc
      - 2x --- TBD EXACT LENGTH 277mm
      - 2x --- TBD EXACT LENGTH 277mm with holes drilled 56.5mm in from each end for a distance of 164mm hole to hole
 
+- Hardware
+     - Case assembly 
+         - 104 M3x10mm screws - I used pan head, but it doesn't matter
+         - 96 M3 Nuts
+         - 104 M3 Washers
+
+     - X/Y Stepper Mounting 
+         - 8 M3x10mm screws MUST be cap head or button head
+
+
 
 Z AXIS NOT YET CONVERTED
 
