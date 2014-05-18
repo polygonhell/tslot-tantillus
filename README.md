@@ -1,9 +1,9 @@
 tslot-tantillus
 ===============
 
-DONOT TRY AND PRINT THIS YET IT IS STILL A WIP, NOT ALL THE FILES HAVE BEEN CONVERTED
+THIS IS STILL A WIP,  Z Axis not tested and no place to mount a Z endstop right now.
 
-Note horizontal TSlot must be 10 mm longer to retain original size account for the offset of the 15mm openbeam rather than 20mm extrusion
+Note horizontal TSlot must be 10 mm longer than the original derivative to retain original size, accounting for the offset of the 15mm openbeam rather than 20mm extrusion
 
 i.e. original is 5+20 + 200 + 20+5 = 250mm, openbeam must be 5+15 + 210 + 15+5 = 250mm
 
@@ -12,31 +12,39 @@ Vertical beams extend the length of the case, and are therefore the same length
 In my build, I dirlled the ends of the drive rods and couple the XY Motors directly too them. This is only practical if you have access to a lathe. You can choose to use standoffs and a coupler like the 2020 design but you will need to use Rod lengths ~5mm longer than the original 2020 TSlot design, rather than the ones specified here.
 
 - OpenBeam lengths:
-     - 8x (Horizontal 210mm)
+     - 9x (Horizontal 210mm) - cur one of them slightly undersized, it's used to mount the upper part of the Z axis
      - 4x (Vertical 335mm)
 
 - All screws for frame assembly are M3x10mm, you'll need washers om the bolts going into the OpenBeam, I recommend cap head screws as they fit into the recesses provided for the XY Stepper mounts. If you are using the 40 mm standoffs from the original design then it doesn't matter.
 
 - 8mm Shafting
      - 2x SFJ8-170 (8x170mm bearing shafts, same as Tantillus internal XY axis)
-     - 2x SFJ8-230 (8x230mm bearing shafts, same as Tantillus Z axis)
+     - 2x SFJ8-230 (8x???mm Z axis), need to be short enough to not hit the X axis
 
-- 5/16" Shafting
-     - 2x --- TBD EXACT LENGTH 277mm
-     - 2x --- TBD EXACT LENGTH 277mm with holes drilled 56.5mm in from each end for a distance of 164mm hole to hole
+- 5/16" Shafting - I started longer than required and curt them to size after test fitting
+     - 2x --- TBD EXACT LENGTH 
+     - 2x --- TBD EXACT LENGTH with holes drilled 56.5mm in from each end for a distance of 164mm hole to hole
 
 - Hardware
      - Case assembly 
-         - 104 M3x10mm screws - I used pan head, but it doesn't matter
-         - 96 M3 Nuts
-         - 104 M3 Washers
+         - 120 M3x10mm screws - I used pan head, but it doesn't matter
+         - 112 M3 Nuts
+         - 112 M3 Washers
+
+         - 4 M3x12 - For the ZAxis vertical bar retainers - probbaly best just to redesign for 10mm hardware
+         - 4 M3 Nuts
 
      - X/Y Stepper Mounting 
          - 8 M3x10mm screws MUST be cap head or button head
 
+     - X/Y axis - Same as the original
+     - Extruder mount - Same as the original
+
+     - Cable ZAxis - Same as the original - M4 hardware can be anywhere from about 12mm to 20mm
+         - 3 M4x20
+         - 1 M3x10
 
 
-Z AXIS NOT YET CONVERTED
 
 
 
